@@ -22,4 +22,9 @@ public class C {
   public double div(){
     return 0;
   }
+  
+  @Override
+  public String toString(){
+    return 0;
+  }
 }
