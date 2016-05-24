@@ -8,18 +8,18 @@ public class C {
   }
   
   public int add(){
-    
+    return 0;
   }
   
   public int sub(){
-    
+    return 0;
   }
   
   public double mul(){
-    
+    return 0;
   }
   
   public double div(){
-    
+    return 0;
   }
 }
