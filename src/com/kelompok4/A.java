@@ -9,8 +9,7 @@ public class A {
 	// mengembalikan nilai string
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		return "A";
 	}
 	
 	
