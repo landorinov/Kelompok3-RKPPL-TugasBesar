@@ -1,5 +1,8 @@
 package com.kelompok4;
 
-public class MullAndDivInterface {
+public interface MullAndDivInterface {
+
+    public double mul(double n1, double n2);
+    public double div(double n1, double n2);
 
 }
