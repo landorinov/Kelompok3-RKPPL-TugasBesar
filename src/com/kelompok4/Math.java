@@ -9,6 +9,6 @@ public class Math {
     }
 
     public double sqrt(double n) {
-        return 0;
+        return java.lang.Math.sqrt(n);
     }
 }

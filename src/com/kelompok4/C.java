@@ -1,28 +1,36 @@
 package com.kelompok4;
 
-public class C {
+public class C extends Math {
 
     private double n1;
     private double n2;
 
     public C() {
-    	System.out.println("Ctor di kelas C");
+    	System.out.println("Ctor di kelas "+getClass().getSimpleName());
     }
 
     public int add() {
-        return 0;
+    	A a = new A();
+    	int n1 = (int) this.n1;
+    	int n2 = (int) this.n2;
+        return a.add(n1, n2);
     }
 
     public int sub() {
-        return 0;
+    	A a= new A();
+    	int n1 = (int) this.n1;
+    	int n2 = (int) this.n2;
+        return a.sub(n1, n2);
     }
 
     public double mul() {
-        return 0;
+    	B b = new B();
+        return b.mul(n1, n2);
     }
 
     public double div() {
-        return 0;
+    	B b = new B();
+        return b.div(n1, n2);
     }
 
     @Override

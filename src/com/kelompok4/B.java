@@ -1,5 +1,5 @@
 package com.kelompok4;
-
+//Otik Indriyana 133040040
 public class B implements MullAndDivInterface  {
 	
 	public B() {
@@ -18,7 +18,6 @@ public class B implements MullAndDivInterface  {
 		return n1/n2;
 	}
 
-	
 
     @Override
     public String toString() {
