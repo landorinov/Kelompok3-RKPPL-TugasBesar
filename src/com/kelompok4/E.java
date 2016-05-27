@@ -11,7 +11,7 @@ public class E {
     private List dataList;
 
     public E() {
-    	System.out.println("Ctor di kelas E");
+    	System.out.println("Ctor di kelas "+getClass().getSimpleName());
     }
 
     public boolean contains(String n) {
@@ -28,7 +28,7 @@ public class E {
 
     @Override
     public String toString() {
-        return "toString kelas E";
+        return "toString kelas "+getClass().getSimpleName();
     }
 
 }
