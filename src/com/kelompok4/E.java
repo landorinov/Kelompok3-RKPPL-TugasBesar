@@ -11,7 +11,7 @@ public class E {
     private List dataList;
 
     public E() {
-
+    	System.out.println("Ctor di kelas E");
     }
 
     public boolean contains(String n) {

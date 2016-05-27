@@ -6,6 +6,7 @@ public class C {
     private double n2;
 
     public C() {
+    	System.out.println("Ctor di kelas C");
     }
 
     public int add() {
@@ -26,6 +27,6 @@ public class C {
 
     @Override
     public String toString() {
-        return "C";
+        return "toString di kelas C";
     }
 }
