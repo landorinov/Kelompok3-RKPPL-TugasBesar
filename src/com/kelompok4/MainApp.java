@@ -39,7 +39,7 @@ public class MainApp {
     	System.out.println("\n");
     	
     	E e = new E();
-    	//ga ngerti sy
+    	//ga ngerti sy tambahin aja
     	
     }
 }
