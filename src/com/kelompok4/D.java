@@ -1,13 +1,19 @@
 package com.kelompok4;
 
-public class D {
+public class D implements PowInterface  {
 
-    public D() {
+    @Override
+	public double pow(double n1, double n2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
+	public D() {
+    	System.out.println("Ctor kelas D");
     }
 
     @Override
     public String toString() {
-        return "D";
+        return "toString kelas D";
     }
 }

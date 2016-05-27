@@ -28,7 +28,7 @@ public class E {
 
     @Override
     public String toString() {
-        return "E";
+        return "toString kelas E";
     }
 
 }
