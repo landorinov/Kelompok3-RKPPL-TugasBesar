@@ -1,5 +1,5 @@
 package com.kelompok4;
-
+//Otik Indriyana 133040040
 public class D implements PowInterface  {
 
 	public D() {
