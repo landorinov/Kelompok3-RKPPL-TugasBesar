@@ -10,25 +10,41 @@ public class E {
 
     private List dataList;
 
+    /**
+     *
+     */
     public E() {
-    	System.out.println("Ctor di kelas "+getClass().getSimpleName());
+        System.out.println("Ctor di kelas " + getClass().getSimpleName());
     }
 
+    /**
+     *
+     * @param n
+     * @return
+     */
     public boolean contains(String n) {
         return this.dataList.toString().contains(n);
     }
 
+    /**
+     *
+     * @return
+     */
     public List getDataList() {
         return dataList;
     }
 
+    /**
+     *
+     * @param dataList
+     */
     public void setDataList(List dataList) {
         this.dataList = dataList;
     }
 
     @Override
     public String toString() {
-        return "toString kelas "+getClass().getSimpleName();
+        return "toString kelas " + getClass().getSimpleName();
     }
 
 }
