@@ -1,5 +1,5 @@
 package com.kelompok4;
-
+//Firman Kusnandi 133040297
 public class C extends Math {
 
     private double n1;

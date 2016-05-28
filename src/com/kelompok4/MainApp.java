@@ -1,5 +1,8 @@
 package com.kelompok4;
 //Otik Indriyana 133040040
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainApp {
 
     public static void main(String[] args) {
@@ -38,8 +41,21 @@ public class MainApp {
     	System.out.println(d.toString());
     	System.out.println("\n");
     	
+    	//instansiasi kelas E
     	E e = new E();
-    	//ga ngerti sy tambahin aja ya...
+    	List datalist = new ArrayList<>();
     	
+    	datalist.add(c);
+    	datalist.add(d);
+    	datalist.add(e);
+    	
+    	e.setDataList(datalist);
+    	System.out.println(e.getDataList());
+    	System.out.println(e.contains("C"));
+    	System.out.println(e.contains("D"));
+    	System.out.println(e.contains("E"));
+    	System.out.println(e.toString());
+    	
+    	 
     }
 }

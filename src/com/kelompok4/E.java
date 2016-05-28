@@ -15,7 +15,7 @@ public class E {
     }
 
     public boolean contains(String n) {
-        return true;
+        return this.dataList.toString().contains(n);
     }
 
     public List getDataList() {

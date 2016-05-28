@@ -1,5 +1,5 @@
 package com.kelompok4;
-
+//Faerul salamun 133040088
 import static java.lang.Math.sqrt;
 
 public class Math {
